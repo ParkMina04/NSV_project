@@ -1,0 +1,125 @@
+.about-us-section-contetnt {
+	padding-top: 102px;
+	padding-bottom: 150px;
+	position: relative;
+}
+.about-us-contetnt-description__item {
+	background: rgba(243, 243, 248, 0.8);
+	width: 405px;
+	height: 155px;
+	position: relative;
+	backdrop-filter: blur(10px);
+	border-radius: 8px;
+	padding: 20px;
+	display: inline-block;
+}
+.about-us-section-contetnt__title {
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 130%;
+}
+.description-item__title {
+	font-weight: 600;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+.ellipce {
+	position: absolute;
+	left: 187px;
+	top: 97px;
+	bottom: 115px;
+	z-index: -1;
+}
+.about-us-section-contetnt-description {
+	background: url("../img/about-us-section/background-logo.png") no-repeat;
+	background-position: center center;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+}
+.first-description__item {
+	margin-left: 20px;
+	margin-top: 97px;
+}
+.second-description__item {
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.third-description__item {
+	margin-top: 117px;
+}
+.fourth-description__item {
+	margin-top: 120px;
+}
+.fifth-description__item {
+	margin-top: 231px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.sixth-description__item {
+	margin-top: 140px;
+	margin-right: 64px;
+}
+
+
+@media (max-width: 1380px) {
+.about-us-section-contetnt {
+	padding-top: 50px;
+	padding-bottom: 100px;
+	position: static;
+}
+.about-us-contetnt-description__item {
+	width: 100%;
+	height: 135px;
+	position: static;
+	padding: 16px;
+	display: inline-block;
+}
+.description-item__title {
+	font-weight: 600;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+.ellipce {
+	display: none;
+}
+.about-us-section-contetnt-description {
+	background: none;
+	display: flex;
+	flex-wrap: wrap;
+	position: static;
+
+}
+.about-us-contetnt-description__item+.about-us-contetnt-description__item {
+	margin-top: 16px;
+}
+.first-description__item {
+	margin: 0;
+	margin-top: 24px;
+}
+.second-description__item {
+	margin: 0;
+}
+.third-description__item {
+	margin: 0;
+}
+.fourth-description__item {
+	margin: 0;
+}
+.fifth-description__item {
+	margin: 0;
+}
+.sixth-description__item {
+	margin: 0;
+}
+}
+
+@media screen and (max-width: 445px){
+	.first-description__item{
+		height: 100%;
+	}
+	.about-us-contetnt-description__item+.about-us-contetnt-description__item{
+		height: 100%;
+	}
+}

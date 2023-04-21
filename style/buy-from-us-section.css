@@ -1,0 +1,141 @@
+.slider-line__item {
+	width: 200px;
+	text-align: center;
+	position: relative;
+}
+.slider {
+	width: 100%;
+	overflow: hidden;
+}
+.slider-line {
+	width: 2288px;
+	display: flex;
+	position: relative;
+	left: 0;
+	transition: all ease 0.5s;
+}
+.slider-line__item {
+	display: flex;
+	flex-direction: column;
+}
+.slider-line__item {
+	margin-right: 32px;
+}
+.slider-line__item:last-child {
+	margin-right: 0;
+}
+.slider-line__item-img {
+	height: 200px;
+	border-radius: 100px;
+	overflow: hidden;
+	object-fit: cover;
+}
+.slider-container {
+	display: flex;
+	align-items: center;
+}
+.slider-prev, .slider-next {
+	width: 32px;
+	height: 32px;
+	cursor: pointer;
+}
+.slider-prev {
+	margin-left: -40px;
+	margin-right: 8px;
+}
+.slider-next {
+	margin-right: -40px;
+	margin-left: 8px;
+}
+.slider-line__item-description {
+	font-weight: 600;
+	font-size: 18.3px;
+	line-height: 130%;
+	margin-top: 19px;
+}
+.buy-from-us-section-title {
+	margin-bottom: 40px;
+}
+.buy-from-us-section {
+	padding-top: 75px;
+	padding-bottom: 100px;
+}
+.slider-line__item-link {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+.mobile-slider {
+	display: none;
+}
+
+
+
+@media (max-width: 1380px) {
+	.slider-line__item {
+		width: 140px;
+	}
+	.slider {
+		width: 100%;
+		overflow: hidden;
+	}
+	.slider-line {
+		width: 1580px;
+	}
+	.slider-line__item {
+		margin-right: 0px;
+	}
+	.slider-line__item:not(:nth-child(even)) {
+		margin-right: 20px;
+	}
+	.slider-line__item:last-child {
+		margin-right: 0;
+	}
+	.slider-line__item-img {
+		height: 140px;
+		border-radius: 70px;
+	}
+	.slider-container {
+		display: flex;
+		flex-direction: column;
+		align-items: initial;
+	}
+	.slider-prev, .slider-next {
+		display: none;
+	}
+	.slider-line__item-description {
+		font-weight: 600;
+		font-size: 16px;
+		line-height: 130%;
+		margin-top: 16px;
+	}
+	.buy-from-us-section-title {
+		margin-bottom: 32px;
+	}
+	.buy-from-us-section {
+		padding-top: 50px;
+		padding-bottom: 80px;
+	}
+	.mobile-slider {
+		display: flex;
+	}
+	.pages-list {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin-top: 16px !important;	
+	}
+	.pages-list__item {
+		width: 10px;
+		height: 10px;
+		background: #D1D1D1;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+	.using-pages-list__item {
+		background: #EE791C;
+	}
+	.pages-list__item+.pages-list__item {
+		margin-left: 10px;
+	}
+}

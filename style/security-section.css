@@ -1,0 +1,150 @@
+.security-section-container {
+	background: #F5F5F9;
+	display: flex;
+	margin-top: 168px;
+	margin-bottom: 102px;
+	border-radius: 8px;
+}
+.security-section-container-first-part {
+	min-width: 166px;
+	display: flex;
+	align-items: end;
+}
+.shield__img {
+	margin-bottom: -54px;
+}
+.security-section-container-second-part {
+	margin: 55px 13px 55px 0;
+}
+.content-information-title {
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 130%;
+	margin-bottom: 24px;
+}
+.content-information-text p+p {
+	margin-top: 16px;
+}
+.see-the-warranty {
+	font-weight: 600;
+	color: #EE791C;
+}
+.security-section-container-third-part {
+	display: flex;
+	align-items: end;
+}
+.guarantee-circle-text {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 130%;
+	color: #fff;
+	display: block;
+	width: 126px;
+	height: 126px;
+	border-radius: 63px;
+	background-color: #EE791C;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+.first-guarantee-block {
+	margin: auto -67px 196px -59px;
+}
+.second-guarantee-block {
+	margin: auto -88px 70px -38px;
+}
+.watch-img {
+	z-index: 1;
+}
+.lock__img {
+	margin-top: -92px;
+}
+.security-section-container-fourth-part {
+	min-width: 219px;
+}
+
+
+@media (max-width: 1380px) {
+.security-section-container {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 137px;
+	margin-bottom: 50px;
+	padding: 0 16px;
+}
+.security-section-container-first-part {
+	display: none;
+}
+.security-section-container-second-part {
+	margin: 0px 0px 38px 226px;
+	order: 2;
+}
+.content-information-title {
+	font-size: 24px;
+	margin-bottom: 16px;
+}
+.security-section-container-third-part {
+	order: 3;
+}
+.first-guarantee-block {
+	font-size: 9px;
+	margin: auto -42px 122px -36px;
+	width: 78px;
+	height: 78px;
+	border-radius: 39px;
+
+}
+.second-guarantee-block {
+	font-size: 8px;
+	margin: auto -50px 39px -22px;
+	width: 72px;
+	height: 72px;
+	border-radius: 36px;
+}
+.watch-img {
+	width: 133px;
+	height: 103px;
+	margin-left: -36px;
+}
+.lock__img {
+	margin-top: -57px;
+	height: 130px;
+	width: 130px;
+	margin-right: -16px;
+	margin-left: auto;
+}
+.security-section-container-fourth-part {
+	width: 100%;
+	min-width: 219px;
+	order: 1;
+}
+.smartphone-img {
+	margin-left: 10px;
+	width: 129px;
+	height: 179px;
+}
+}
+
+@media screen and (max-width: 1160px){
+	.security-section-container-third-part{
+		margin-top: -94px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.security-section-container-second-part{
+		margin: 0px 5% 38px 5%;
+	}
+	.security-section-container-third-part{
+		margin-top: 0;
+	}
+}
+
+@media screen and (max-width: 386px){
+	.second-guarantee-block{
+		margin: auto -38px 81px -58px;
+	}
+	.smartphone-img{
+		margin-left: 0;
+	}
+}
